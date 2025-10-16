@@ -11,7 +11,10 @@
     <header class="header">
       <div class="header-content">
         <div class="header-left">
-          <h1 class="logo">TIMPLADO</h1>
+          <div class="title-section">
+            <h1 class="logo">TIMPLADO</h1>
+            <img src="img/TIMPLADO.png" alt="TIMPLADO Logo" class="header-logo">
+          </div>
           <p class="subtitle">Your taste, our tradition.</p>
           <hr>
           <p class="desc">
@@ -30,36 +33,31 @@
         </div>
 
         <div class="header-right">
-          <div class="header-image"></div>
+          <img src="img/foods.avif" alt="Filipino dishes" class="header-food">
         </div>
       </div>
     </header>
 
     <section class="search-section">
       <div class="search-container">
-        <div class="search-wrapper">
-          <div class="search-bar">
-            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </svg>
-            <input type="text" placeholder="Search recipes...">
-          </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search recipes...">
         </div>
 
         <div class="info-box">
+          <hr>
           <p>
             Craving Filipino food? Browse our collection of authentic recipes — 
-            from adobo and sinigang to halo-halo and bibingka.
-            <br><br>
+            from adobo and sinigang to halo-halo and bibingka.<br><br>
             Just click and start cooking your favorite dishes!
           </p>
+          <hr>
         </div>
       </div>
     </section>
 
     <section class="recipes">
-
+      <!-- Row 1 -->
       <div class="recipe">
         <div class="recipe-thumb adobo"></div>
         <div class="recipe-info">
@@ -92,6 +90,7 @@
         </div>
       </div>
 
+      <!-- Row 2 -->
       <div class="recipe">
         <div class="recipe-thumb pancit"></div>
         <div class="recipe-info">
@@ -124,6 +123,7 @@
         </div>
       </div>
 
+      <!-- Row 3 -->
       <div class="recipe">
         <div class="recipe-thumb laing"></div>
         <div class="recipe-info">
@@ -156,6 +156,7 @@
         </div>
       </div>
 
+      <!-- Row 4 -->
       <div class="recipe">
         <div class="recipe-thumb tokwa"></div>
         <div class="recipe-info">
@@ -192,25 +193,33 @@
     <footer class="footer">
       <div class="footer-content">
         <div class="footer-main">
-          <h2>TIMPLADO</h2>
-          <p>Sharing the flavors of the Philippines, one recipe at a time.</p>
-          
-          <div class="contact-info">
-            <p>Email: Timplado@gmail.com</p>
-            <p>Phone: 09218948907</p>
+          <div class="footer-brand">
+            <h2>TIMPLADO</h2>
+            <p class="footer-tagline">Your taste, our tradition.</p>
           </div>
           
-          <div class="social-links">
-            <p>Follow us:</p>
-            <div class="social-icons">
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">YouTube</a>
+          <div class="footer-info">
+            <div class="contact-info">
+              <h4>Contact Us</h4>
+              <p>Email: Timplado@gmail.com</p>
+              <p>Phone: 09218948907</p>
+            </div>
+            
+            <div class="social-links">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+              </div>
             </div>
           </div>
         </div>
         
-        <p class="copyright">© 2025 TIMPLADO. All Rights Reserved.</p>
+        <div class="footer-bottom">
+          <p class="copyright">© 2025 TIMPLADO. All Rights Reserved.</p>
+          <p class="footer-desc">Sharing the flavors of the Philippines, one recipe at a time.</p>
+        </div>
       </div>
     </footer>
   </div>
