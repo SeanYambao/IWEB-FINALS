@@ -8,74 +8,210 @@
 </head>
 <body>
   <div class="container">
-
-
     <header class="header">
-      <div class="header-left">
-        <h1 class="logo">TIMPLADO</h1>
-        <p class="subtitle">Your taste, our tradition.</p>
-        <hr>
-        <p class="desc">
-          Discover authentic Filipino recipes, from timeless classics to modern twists. 
-          TIMPLADO brings you the rich flavors of the Philippines — savory, sweet, and everything in between. 
-          Whether you’re a beginner or a seasoned cook, our recipes guide you step by step to create meals that feel like home.
-          <br><br>
-          Explore. Cook. Share. Relive the joy of Filipino food with every bite.
-        </p>
-        <hr>
-        <nav class="nav">
-          <a href="#">HOME</a>
-          <a href="#">CATEGORIES</a>
-          <a href="#">REVIEWS</a>
-        </nav>
-      </div>
+      <div class="header-content">
+        <div class="header-left">
+          <h1 class="logo">TIMPLADO</h1>
+          <p class="subtitle">Your taste, our tradition.</p>
+          <hr>
+          <p class="desc">
+            Discover authentic Filipino recipes, from timeless classics to modern twists. 
+            TIMPLADO brings you the rich flavors of the Philippines — savory, sweet, and everything in between. 
+            Whether you're a beginner or a seasoned cook, our recipes guide you step by step to create meals that feel like home.
+            <br><br>
+            Explore. Cook. Share. Relive the joy of Filipino food with every bite.
+          </p>
+          <hr>
+          <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">CATEGORIES</a>
+            <a href="#">REVIEWS</a>
+          </nav>
+        </div>
 
-      <div class="header-right">
-        <img src="img/foods.avif" alt="Filipino dishes">
+        <div class="header-right">
+          <div class="header-image"></div>
+        </div>
       </div>
     </header>
 
-
     <section class="search-section">
-      <div class="search-bar">
-        <input type="text" placeholder="Search">
-      </div>
+      <div class="search-container">
+        <div class="search-wrapper">
+          <div class="search-bar">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+            <input type="text" placeholder="Search recipes...">
+          </div>
+        </div>
 
-      <div class="info-box">
-        <hr>
-        <p>
-          Craving Filipino food? Browse our collection of authentic recipes — 
-          from adobo and sinigang to halo-halo and bibingka.<br><br>
-          Just click and start cooking your favorite dishes!
-        </p>
-        <hr>
+        <div class="info-box">
+          <p>
+            Craving Filipino food? Browse our collection of authentic recipes — 
+            from adobo and sinigang to halo-halo and bibingka.
+            <br><br>
+            Just click and start cooking your favorite dishes!
+          </p>
+        </div>
       </div>
     </section>
 
     <section class="recipes">
-      <div class="recipe"><div class="recipe-thumb adobo"></div><div class="recipe-info"><h3>ADOBO</h3><p>chicken or pork braised in soy sauce, vinegar, garlic, and spices</p></div></div>
-      <div class="recipe"><div class="recipe-thumb sinigang"></div><div class="recipe-info"><h3>SINIGANG</h3><p>sour tamarind-based soup with pork, shrimp, or fish</p></div></div>
-      <div class="recipe"><div class="recipe-thumb lechon"></div><div class="recipe-info"><h3>LECHON</h3><p>whole roasted pig with crispy skin and juicy meat</p></div></div>
-      <div class="recipe"><div class="recipe-thumb karekare"></div><div class="recipe-info"><h3>KARE-KARE</h3><p>peanut stew with oxtail, tripe, and vegetables</p></div></div>
 
-      <div class="recipe"><div class="recipe-thumb pancit"></div><div class="recipe-info"><h3>PANCIT</h3><p>stir-fried noodles with meat and vegetables</p></div></div>
-      <div class="recipe"><div class="recipe-thumb lumpia"></div><div class="recipe-info"><h3>LUMPIA</h3><p>crispy Filipino spring rolls with savory fillings</p></div></div>
-      <div class="recipe"><div class="recipe-thumb halo"></div><div class="recipe-info"><h3>HALO-HALO</h3><p>shaved ice dessert with sweet beans, fruits, and milk</p></div></div>
-      <div class="recipe"><div class="recipe-thumb bibingka"></div><div class="recipe-info"><h3>BIBINGKA</h3><p>soft rice cake baked with salted egg and cheese</p></div></div>
+      <div class="recipe">
+        <div class="recipe-thumb adobo"></div>
+        <div class="recipe-info">
+          <h3>ADOBO</h3>
+          <p>chicken or pork braised in soy sauce, vinegar, garlic, and spices</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb sinigang"></div>
+        <div class="recipe-info">
+          <h3>SINIGANG</h3>
+          <p>sour tamarind-based soup with pork, shrimp, or fish</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb lechon"></div>
+        <div class="recipe-info">
+          <h3>LECHON</h3>
+          <p>whole roasted pig with crispy skin and juicy meat</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb karekare"></div>
+        <div class="recipe-info">
+          <h3>KARE-KARE</h3>
+          <p>peanut stew with oxtail, tripe, and vegetables</p>
+        </div>
+      </div>
 
-      <div class="recipe"><div class="recipe-thumb laing"></div><div class="recipe-info"><h3>LAING</h3><p>dried taro leaves cooked in coconut milk and chili</p></div></div>
-      <div class="recipe"><div class="recipe-thumb caldereta"></div><div class="recipe-info"><h3>CALDERETA</h3><p>beef stew cooked with tomato sauce, liver spread, and vegetables</p></div></div>
-      <div class="recipe"><div class="recipe-thumb sisig"></div><div class="recipe-info"><h3>SISIG</h3><p>minced pork face and ears served sizzling with egg and chili</p></div></div>
-      <div class="recipe"><div class="recipe-thumb tinola"></div><div class="recipe-info"><h3>TINOLA</h3><p>chicken soup with papaya, ginger, and chili leaves</p></div></div>
+      <div class="recipe">
+        <div class="recipe-thumb pancit"></div>
+        <div class="recipe-info">
+          <h3>PANCIT</h3>
+          <p>Filipino noodles (like Pancit Canton or Pancit Bihon)</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb lumpia"></div>
+        <div class="recipe-info">
+          <h3>LUMPIA</h3>
+          <p>Filipino-style spring rolls (fried or fresh)</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb halo"></div>
+        <div class="recipe-info">
+          <h3>HALO-HALO</h3>
+          <p>shaved ice dessert with milk, fruits, beans, and leche flan</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb sisig"></div>
+        <div class="recipe-info">
+          <h3>SISIG</h3>
+          <p>sizzling pork with calamansi and chili, usually with egg on top</p>
+        </div>
+      </div>
+
+      <div class="recipe">
+        <div class="recipe-thumb laing"></div>
+        <div class="recipe-info">
+          <h3>LAING</h3>
+          <p>taro leaves cooked in coconut milk and chili</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb bulalo"></div>
+        <div class="recipe-info">
+          <h3>BULALO</h3>
+          <p>beef shank soup with bone marrow</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb bicol-express"></div>
+        <div class="recipe-info">
+          <h3>BICOL EXPRESS</h3>
+          <p>spicy pork in coconut milk and chili</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb caldereta"></div>
+        <div class="recipe-info">
+          <h3>CALDERETA</h3>
+          <p>beef or goat stew with tomato sauce and liver spread</p>
+        </div>
+      </div>
+
+      <div class="recipe">
+        <div class="recipe-thumb tokwa"></div>
+        <div class="recipe-info">
+          <h3>TOKWA'T BABOY</h3>
+          <p>tofu and pork with vinegar-soy dip</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb puto"></div>
+        <div class="recipe-info">
+          <h3>PUTO & KUTSINTA</h3>
+          <p>steamed rice cakes</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb bibingka"></div>
+        <div class="recipe-info">
+          <h3>BIBINGKA</h3>
+          <p>coconut rice cake, often eaten during Christmas</p>
+        </div>
+      </div>
+      
+      <div class="recipe">
+        <div class="recipe-thumb champorado"></div>
+        <div class="recipe-info">
+          <h3>CHAMPORADO</h3>
+          <p>chocolate rice porridge, usually paired with dried fish (tuyo)</p>
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-      <p>© 2025 TIMPLADO | All Rights Reserved</p>
-      <p>Follow us on 
-        <a href="#">Facebook</a> · 
-        <a href="#">Instagram</a> · 
-        <a href="#">YouTube</a>
-      </p>
+      <div class="footer-content">
+        <div class="footer-main">
+          <h2>TIMPLADO</h2>
+          <p>Sharing the flavors of the Philippines, one recipe at a time.</p>
+          
+          <div class="contact-info">
+            <p>Email: Timplado@gmail.com</p>
+            <p>Phone: 09218948907</p>
+          </div>
+          
+          <div class="social-links">
+            <p>Follow us:</p>
+            <div class="social-icons">
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">YouTube</a>
+            </div>
+          </div>
+        </div>
+        
+        <p class="copyright">© 2025 TIMPLADO. All Rights Reserved.</p>
+      </div>
     </footer>
   </div>
 </body>
