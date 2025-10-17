@@ -305,7 +305,7 @@ body {
 .laing { background-image: url('img/laing.jpg'); }
 .bulalo { background-image: url('img/bulalo.jpg'); }
 .bicol-express { background-image: url('img/bicol\ express.webp'); }
-.caldereta { background-image: url('img/Caldereta.jpg'); }
+.caldereta { background-image: url('Caldereta.jpg'); }
 .tokwa { background-image: url('img/tokwat\ baboy.webp'); }
 .puto { background-image: url('img/kutsinta.jpg'); }
 .bibingka { background-image: url('img/bibingka.jpg'); }
@@ -403,4 +403,5 @@ body {
   font-size: 14px;
   color: #444;
   font-style: italic;
+
 }
