@@ -290,22 +290,22 @@ body {
     font-weight: 500;
 }
 
-.adobo { background-image: url('img/adobo.webp'); }
-.sinigang { background-image: url('img/sinigang.jfif'); }
-.lechon { background-image: url('img/lechon.jpg'); }
-.karekare { background-image: url('img/kare kare.avif'); }
-.pancit { background-image: url('img/pancit.jpg'); }
-.lumpia { background-image: url('img/lumpia.jpg'); }
-.halo { background-image: url('img/halo halo.webp'); }
-.sisig { background-image: url('img/sisig.jpg'); }
-.laing { background-image: url('img/laing.jpg'); }
-.bulalo { background-image: url('img/bulalo.jpg'); }
-.bicol-express { background-image: url('img/bicol express.webp'); }
-.caldereta { background-image: url('img/Caldereta.jpg'); }
-.tokwa { background-image: url('img/tokwat baboy.webp'); }
-.puto { background-image: url('img/kutsinta.jpg'); }
-.bibingka { background-image: url('img/bibingka.jpg'); }
-.champorado { background-image: url('img/champorado.jpg'); }
+.adobo { background-image: url('adobo.webp'); }
+.sinigang { background-image: url('sinigang.jfif'); }
+.lechon { background-image: url('lechon.jpg'); }
+.karekare { background-image: url('kare kare.avif'); }
+.pancit { background-image: url('pancit.jpg'); }
+.lumpia { background-image: url('lumpia.jpg'); }
+.halo { background-image: url('halo halo.webp'); }
+.sisig { background-image: url('sisig.jpg'); }
+.laing { background-image: url('laing.jpg'); }
+.bulalo { background-image: url('bulalo.jpg'); }
+.bicol-express { background-image: url('bicol express.webp'); }
+.caldereta { background-image: url('Caldereta.jpg'); }
+.tokwa { background-image: url('tokwat baboy.webp'); }
+.puto { background-image: url('kutsinta.jpg'); }
+.bibingka { background-image: url('bibingka.jpg'); }
+.champorado { background-image: url('champorado.jpg'); }
 
 /* FOOTER */
 .footer {
@@ -748,4 +748,5 @@ body {
         font-size: 10px;
     }
 }
+
 
