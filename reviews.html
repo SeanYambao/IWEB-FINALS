@@ -14,7 +14,7 @@
         <div class="header-left">
           <div class="title-section">
             <h1 class="logo">TIMPLADO</h1>
-            <img src="TIMPLADO.png" alt="TIMPLADO Logo" class="header-logo">
+            <img src="img/TIMPLADO.png" alt="TIMPLADO Logo" class="header-logo">
           </div>
           <p class="subtitle">Your taste, our tradition.</p>
           <hr>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="header-right">
-          <img src="foods.avif" alt="Filipino dishes" class="header-food">
+          <img src="img/foods.avif" alt="Filipino dishes" class="header-food">
         </div>
       </div>
     </header>
@@ -43,36 +43,124 @@
       <div class="reviews-container">
         <h2 class="reviews-title">REVIEWS</h2>
         
-        <div class="review-form">
+        <div class="review-form-container">
           <h3 class="form-title">Tell us how it turned out for you!</h3>
-          <textarea class="review-input" placeholder="Write here..."></textarea>
-          <button class="post-button">POST</button>
+          <form class="review-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="reviewer-name" class="form-label">Your Name</label>
+              <input type="text" id="reviewer-name" name="reviewer-name" class="form-input" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="recipe-tried" class="form-label">Recipe You Tried</label>
+              <select id="recipe-tried" name="recipe-tried" class="form-select" required>
+                <option value="" disabled selected>Select a recipe</option>
+                <option value="adobo">Adobo - Chicken or Pork</option>
+                <option value="sinigang">Sinigang</option>
+                <option value="lechon">Lechon</option>
+                <option value="kare-kare">Kare-Kare</option>
+                <option value="pancit">Pancit</option>
+                <option value="lumpia">Lumpia</option>
+                <option value="halo-halo">Halo-Halo</option>
+                <option value="sisig">Sisig</option>
+                <option value="laing">Laing</option>
+                <option value="bulalo">Bulalo</option>
+                <option value="bicol-express">Bicol Express</option>
+                <option value="caldereta">Caldereta</option>
+                <option value="tokwa-baboy">Tokwa't Baboy</option>
+                <option value="puto-kutsinta">Puto & Kutsinta</option>
+                <option value="bibingka">Bibingka</option>
+                <option value="champorado">Champorado</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="rating" class="form-label">Rating</label>
+              <div class="rating-stars">
+                <input type="radio" id="star5" name="rating" value="5" required>
+                <label for="star5" class="star-label">★</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4" class="star-label">★</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3" class="star-label">★</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2" class="star-label">★</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1" class="star-label">★</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="review-text" class="form-label">Your Review</label>
+              <textarea id="review-text" name="review-text" class="review-input" placeholder="Share your experience with this recipe..." required></textarea>
+            </div>
+            
+            <div class="form-actions">
+              <button type="reset" class="reset-button">CLEAR</button>
+              <button type="submit" class="post-button">POST REVIEW</button>
+            </div>
+          </form>
         </div>
         
         <div class="reviews-list">
           <div class="review-card">
+            <div class="review-header">
+              <h4 class="recipe-name">Sinigang</h4>
+              <div class="review-rating">★★★★★</div>
+            </div>
             <p class="review-text">I've always missed the sour kick of sinigang since moving abroad. This recipe brought me right back home.</p>
-            <p class="review-author">Kurt C.</p>
+            <div class="review-footer">
+              <p class="review-author">Kurt C.</p>
+              <p class="review-date">March 15, 2025</p>
+            </div>
           </div>
           
           <div class="review-card">
+            <div class="review-header">
+              <h4 class="recipe-name">Adobo - Chicken or Pork</h4>
+              <div class="review-rating">★★★★★</div>
+            </div>
             <p class="review-text">Super easy to follow! My adobo turned out just like my lola's — savory, tender, and perfect with rice.</p>
-            <p class="review-author">Sean Y.</p>
+            <div class="review-footer">
+              <p class="review-author">Sean Y.</p>
+              <p class="review-date">March 12, 2025</p>
+            </div>
           </div>
           
           <div class="review-card">
+            <div class="review-header">
+              <h4 class="recipe-name">Kare-Kare</h4>
+              <div class="review-rating">★★★★☆</div>
+            </div>
             <p class="review-text">I never thought I could cook kare-kare from scratch, but the instructions were clear and the peanut sauce was so rich. My family loved it!</p>
-            <p class="review-author">Kendrick A.</p>
+            <div class="review-footer">
+              <p class="review-author">Kendrick A.</p>
+              <p class="review-date">March 10, 2025</p>
+            </div>
           </div>
           
           <div class="review-card">
+            <div class="review-header">
+              <h4 class="recipe-name">Lechon</h4>
+              <div class="review-rating">★★★★★</div>
+            </div>
             <p class="review-text">Cooked this for a birthday party — everyone asked for seconds. Simple, authentic, and delicious!</p>
-            <p class="review-author">Almer L.</p>
+            <div class="review-footer">
+              <p class="review-author">Almer L.</p>
+              <p class="review-date">March 5, 2025</p>
+            </div>
           </div>
           
           <div class="review-card">
+            <div class="review-header">
+              <h4 class="recipe-name">Halo-Halo</h4>
+              <div class="review-rating">★★★★☆</div>
+            </div>
             <p class="review-text">This recipe made summer extra fun! Easy to put together and so refreshing. My kids now ask for halo-halo every weekend.</p>
-            <p class="review-author">Shin M.</p>
+            <div class="review-footer">
+              <p class="review-author">Shin M.</p>
+              <p class="review-date">February 28, 2025</p>
+            </div>
           </div>
         </div>
       </div>
@@ -112,5 +200,4 @@
     </footer>
   </div>
 </body>
-
 </html>
