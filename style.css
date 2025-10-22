@@ -134,6 +134,7 @@ body {
     width: 100%;
 }
 
+/* SEARCH */
 .search-section {
     background-color: var(--dark);
     padding: 20px 0;
@@ -188,6 +189,7 @@ body {
     opacity: 0.7;
 }
 
+/* RECIPE BOX */
 .recipes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -293,6 +295,7 @@ body {
     font-weight: 500;
 }
 
+/* FOOD PICS */
 .adobo { background-image: url('adobo.webp'); }
 .sinigang { background-image: url('sinigang.jfif'); }
 .lechon { background-image: url('lechon.jpg'); }
@@ -832,4 +835,5 @@ body {
         padding: 10px 0 20px 0;
     }
 }
+
 
