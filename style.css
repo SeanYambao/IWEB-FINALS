@@ -22,6 +22,7 @@ body {
     margin: 0 auto;
 }
 
+/* HEADER */
 .header {
     background-color: var(--yellow);
     color: var(--dark);
@@ -100,6 +101,8 @@ body {
     text-align: justify;
 }
 
+
+/* NAV */
 .nav {
     display: flex;
     gap: 40px;
@@ -829,3 +832,4 @@ body {
         padding: 10px 0 20px 0;
     }
 }
+
